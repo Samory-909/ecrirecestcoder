@@ -1,0 +1,100 @@
+*{
+margin: 0;
+padding: 0;
+
+box-sizing: border-box;
+font-family: sans-serif;
+
+}
+/*div{
+height: 50px
+margin : 0 auto 20px auto;
+border: 2px solid black;
+box-sizing: border-box;
+}
+
+.d1{
+    animation: couleur 5s linear 2s infinite alternate;
+}
+.d2{
+    animation: taille 5s linear 2s 5 alternate both;
+}
+  }
+  @keyframes couleur{
+    from{background-color: orange;}
+    50%{background-color: purple;}
+    to{background-color: blue;}
+}
+@keyframes taille{
+    from{width: 100%;}
+    50%{width: 50%;}
+    to{width: 100%;}
+}
+*/
+.titre .niveau4 {
+  text-align: center;
+    width: 25%;
+    height: inherit;
+    margin: 10px auto;
+    position: relative;
+    background-color: Pink;
+    animation-name: couleur;
+    animation-duration: 10s;
+}
+@keyframes couleur{
+    from{
+        background-color: Aqua;
+    }
+    25%{
+        background-color: YellowGreen;
+        width: 60%
+    }
+    50%{
+        background-color: CornflowerBlue;
+        width: 45%
+    }
+    75%{
+        background-color: Tomato;
+        width: 60%;
+    }
+    to{
+        background-color: Pink;
+    }
+}
+.contenu{
+  display: flex;
+  flex-wrap: wrap;
+}
+.partie-gauche {
+  width: 20%;
+  background-color: rgb(236, 236, 236);
+  height: 500px;
+  margin: 5px;
+  text-align: center;
+}
+.partie-droite{
+  background-color: Gold;
+  width: 60%;
+  padding: 50px;
+text-align: justify;
+
+}
+
+
+.monP span {
+  position: absolute;
+  right: 325px;
+}
+a:hover
+{
+color: #F00;
+}
+a
+{
+  text-decoration: none;color: inherit;
+transition: color 1s;
+}
+a:hover
+{
+color: #F00;
+}

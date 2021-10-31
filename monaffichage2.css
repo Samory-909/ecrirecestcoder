@@ -1,0 +1,77 @@
+*{
+margin: 0;
+padding: 0;
+
+box-sizing: border-box;
+font-family: sans-serif;
+
+}
+
+.titre .niveau2 {
+  text-align: center;
+    width: 25%;
+    height: inherit;
+    margin: 10px auto;
+    position: relative;
+    background-color: AliceBlue;
+    animation-name: couleur;
+    animation-duration: 10s;
+}
+@keyframes couleur{
+    from{
+        background-color: Coral;
+    }
+    25%{
+        background-color: Brown;
+        width: 60%
+    }
+    50%{
+        background-color: purple;
+        width: 45%
+    }
+    75%{
+        background-color: DodgerBlue;
+        width: 60%;
+    }
+    to{
+        background-color: AliceBlue;
+    }
+}
+.contenu{
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.partie-gauche {
+  width: 20%;
+  background-color: rgb(236, 236, 236);
+  height: 500px;
+  text-align: center;
+  margin: 5px;
+
+}
+.partie-droite{
+  background-color: Gold;
+  width: 60%;
+  padding: 50px;
+text-align: justify;}
+
+.monP span {
+  position: absolute;
+  right: 185px;
+}a:hover
+{
+color: #F00;
+}
+a
+{
+  text-decoration: none;color: inherit;
+transition: color 1s;
+}
+a:hover
+{
+color: #F00;
+}
+img {
+  position: relative;
+}

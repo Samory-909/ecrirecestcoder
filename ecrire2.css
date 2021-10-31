@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+  background-color: Gold;
+  text-align:justify; }
+#ecrire {
+    font-size:large;
+    padding: 30px;
+    margin:auto;
+}
+
+h1 {text-align:center;}
+/*a {text-decoration: none; color:inherit;}
+a:hover {
+  text-decoration:none;
+  color:#F86898;
+  font-size: 1rem;
+  cursor: pointer;
+}
+a:visited {text-decoration: underline;  cursor: pointer; color:#F86898;; font-size: 1rem;}*/
+p span {
+  text-align: center;
+  position: absolute;
+  right: 45px;
+}
+
+a:hover
+{
+color: #F00;
+}
+a
+{
+  text-decoration: none;color: inherit;
+transition: color 1s;
+}
+a:hover
+{
+color: #F00;
+}
+/* the anchor text still goes back to normal font size after visiting it, why? */
